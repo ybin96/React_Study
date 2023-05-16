@@ -10,6 +10,7 @@ import {
 } from '@material-ui/core';
 import axios from 'axios';
 import React from 'react';
+import { Button } from '@material-ui/core';
 
 const useStyles = makeStyles({
   table: { width: '80%', margin: 'auto' },
@@ -88,7 +89,9 @@ export default function ApiTable() {
               <TableCell>{data.email}</TableCell>
               <TableCell>{data.company}</TableCell>
               <TableCell>
-                <button onClick={() => handleClick(data.id)}>link</button>
+                <Button variant="contained" color="primary" onClick={() => handleClick(data.id)}>
+                  Link
+                </Button>
               </TableCell>
             </TableRow>
           ))}
