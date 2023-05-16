@@ -57,7 +57,7 @@ export default function ApiTable() {
     }
   };
 
-  // id값을 가져와 새탭 열기
+  // id값을 가져와 새로운 창 열기
   const handleClick = (id: number) => {
     window.open(`https://jsonplaceholder.typicode.com/users/${id}`);
   };

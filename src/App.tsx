@@ -5,7 +5,6 @@ function App() {
   return (
     <div>
       <h1>haha hoho</h1>
-
       <ApiTable />
     </div>
   );

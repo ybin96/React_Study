@@ -9,3 +9,4 @@ export default function MyButtonEvent2() {
 
   return <button onClick={handleTime}>{time} 초</button>;
 }
+// 테스트용
